@@ -2,15 +2,16 @@
     border: none;
     border-radius: 0;
     min-height: 0;
-    font-family: "mononoki";
+    font-family: "JetBrainsMono Nerd Font";
     font-weight: bold;
     font-size: 16px;
     padding: 0;
 }
 
 window#waybar {
-    background: #101010;
+    background: #394d44;
     border-bottom: 2px solid #4b4239;
+    opacity: 0.85;
 }
 
 tooltip {
@@ -53,7 +54,7 @@ tooltip {
 }
 
 #clock {
-    background-color: #322d28;
+    background-color: #394d44;
     border: 2px solid #625343;
     color: #d4be98;
 }
@@ -69,14 +70,14 @@ tooltip {
 #memory,
 #network,
 #pulseaudio {
-    background-color: #c9af82;
+    background-color: #394d44;
     border: 2px solid #917a53;
     color: #1d2021;
 }
 
 #cpu.critical,
 #memory.critical {
-    background-color: #c9af82;
+    background-color: #394d44;
     border: 2px solid #917a53;
     color: #c14a4a;
 }
