@@ -6,12 +6,13 @@
     font-weight: bold;
     font-size: 16px;
     padding: 0;
+    opacity: 0.90;
 }
 
 window#waybar {
     background: #394d44;
     border-bottom: 2px solid #4b4239;
-    opacity: 0.85;
+    
 }
 
 tooltip {
